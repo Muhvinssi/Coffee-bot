@@ -20,5 +20,5 @@ async def on_message(message):
         return
 
     if 'coffee' or 'Coffee' in message.content:
-        await message.channel.send('Coffee?1 What, where?')
+        await message.channel.send('Coffee?! What, where?')
 client.run(TOKEN)
