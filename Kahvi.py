@@ -19,6 +19,6 @@ async def on_message(message):
     if message.author == client.user:
         return
 
-    if 'Kahvi' or 'kahvi' in message.content:
-        await message.channel.send('Kahvia?! Mitä, Missä?')
+    if 'coffee' or 'Coffee' in message.content:
+        await message.channel.send('Coffee?1 What, where?')
 client.run(TOKEN)
